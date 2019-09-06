@@ -17,4 +17,4 @@ if __name__ == "__main__":
     print(f1.cat_measures())
     f1.visualize()
     f2 = bivariate.Bivariate(data)
-    f2.bi()
+    f2.visualize()

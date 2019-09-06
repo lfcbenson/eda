@@ -16,7 +16,7 @@ class Bivariate:
         self.cat = [c for i, c in enumerate(df.columns) if df.dtypes[i] in [np.object]]
         self.quant = [c for i, c in enumerate(df.columns) if df.dtypes[i] in [np.int64,np.float64]]
 
-    def bi(self):
+    def visualize(self):
         
 
         def plot(ab,type):
